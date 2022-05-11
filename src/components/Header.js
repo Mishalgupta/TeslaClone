@@ -12,7 +12,7 @@ function Header() {
     return (
         <Container>
             <a>
-                <img src="../../public/images/logo.svg" alt="logo" />
+                <img src={process.env.PUBLIC_URL + "/images/logo.svg"} alt="logo" />
             </a>
             <Menu>
                 {cars && cars.map((car, index) => (
