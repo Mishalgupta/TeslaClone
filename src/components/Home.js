@@ -8,14 +8,14 @@ const Home = () => {
             <Section
                 title="Model S"
                 description="order online for touchless delivery"
-                backgroundImg="model-s.jpg"
+                backgroundImg="../images/model-s.jpg"
                 leftBtn="Order now"
                 rightBtn="Inventory"
             />
             <Section
                 title="Model Y"
                 description="order online for touchless delivery"
-                backgroundImg="model-y.jpg"
+                backgroundImg="../images/model-y.jpg"
                 leftBtn="Order now"
                 rightBtn="Inventory"
 
@@ -23,21 +23,21 @@ const Home = () => {
             <Section
                 title="Model 3"
                 description="order online for touchless delivery"
-                backgroundImg="model-3.jpg"
+                backgroundImg="../images/model-3.jpg"
                 leftBtn="Order now"
                 rightBtn="Inventory"
             />
             <Section
                 title="Accessories"
                 description="order online for touchless delivery"
-                backgroundImg="accessories.jpg"
+                backgroundImg="../images/accessories.jpg"
                 leftBtn="Order now"
                 rightBtn="Inventory"
             />
             <Section
                 title="New solar roofs"
                 description="order online for touchless delivery"
-                backgroundImg="solar-roof.jpg"
+                backgroundImg="../images/solar-roof.jpg"
                 leftBtn="Order now"
                 rightBtn="Inventory"
             />
