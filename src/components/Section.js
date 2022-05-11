@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import down_arrow from '../../public/images/down-arrow.svg'
+import down_arrow from '../images/down-arrow.svg'
 
 const Section = ({ title, description, backgroundImg, leftBtn, rightBtn }) => {
     return (

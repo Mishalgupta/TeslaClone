@@ -4,7 +4,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import { selectCars } from '../features/car/carSlice';
 import { useSelector } from 'react-redux';
-import logo from '../../public/images/logo.svg'
+import logo from '../images/logo.svg'
 
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
