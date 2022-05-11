@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
+import down_arrow from '../../public/images/down-arrow.svg'
+
 const Section = ({ title, description, backgroundImg, leftBtn, rightBtn }) => {
     return (
         <Wrap bgImage={backgroundImg}>
@@ -16,7 +18,7 @@ const Section = ({ title, description, backgroundImg, leftBtn, rightBtn }) => {
                         {rightBtn}
                     </RightButton>
                 </ButtonGroup>
-                <DownArrow src={process.env.PUBLIC_URL + "/images/down-arrow.svg"} />
+                <DownArrow src={down_arrow} />
             </Buttons>
         </Wrap>
     )

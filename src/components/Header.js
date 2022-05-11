@@ -4,6 +4,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import { selectCars } from '../features/car/carSlice';
 import { useSelector } from 'react-redux';
+import logo from '../../public/images/logo.svg'
 
 function Header() {
     const [burgerStatus, setBurgerStatus] = useState(false);
@@ -12,7 +13,7 @@ function Header() {
     return (
         <Container>
             <a>
-                <img src={process.env.PUBLIC_URL + "/images/logo.svg"} alt="logo" />
+                <img src={logo} alt="logo" />
             </a>
             <Menu>
                 {cars && cars.map((car, index) => (
