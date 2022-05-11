@@ -32,7 +32,7 @@ height:100vh;
 background-size:cover;
 background-position:center;
 backgroun-repeat:no-repeat;
-background-image: ${(props) => `url("/images/${props.bgImage}")`};
+background-image: ${(props) => `url("./images/${props.bgImage}")`};
 display:flex;
 flex-direction:column;
 justify-content:space-between; // vertical
