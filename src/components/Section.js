@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+
 const Section = ({ title, description, backgroundImg, leftBtn, rightBtn }) => {
     return (
         <Wrap bgImage={backgroundImg}>
@@ -16,7 +17,7 @@ const Section = ({ title, description, backgroundImg, leftBtn, rightBtn }) => {
                         {rightBtn}
                     </RightButton>
                 </ButtonGroup>
-                <DownArrow src="/images/down-arrow.svg" />
+                <DownArrow src="'../../public/images/down-arrow.svg" />
             </Buttons>
         </Wrap>
     )
@@ -30,7 +31,7 @@ height:100vh;
 background-size:cover;
 background-position:center;
 backgroun-repeat:no-repeat;
-background-image: ${(props) => `url("/images/${props.bgImage}")`};
+background-image: ${(props) => `url("../../public/images/${props.bgImage}")`};
 display:flex;
 flex-direction:column;
 justify-content:space-between; // vertical
